@@ -37,8 +37,9 @@ Nov 6, 2016
 
 Nov 7, 2016
 :: SCRIPT
-? use background fixed on video for backgroud in header
+? use background fixed on video for background in header
 ? the video height should match the screen height (center video and hide overflow )
+? check link to google fonts
 
 :: WP
 - Check tagline punctuation
