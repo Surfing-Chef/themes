@@ -74,6 +74,10 @@ Video-Player
 /****------------------------------------------------------------
 :: HEADER
 ----------------------------------------------------------------*/
+div[data-page='Front Page'] header,
+div[data-page='Front Page'] footer {
+  display: none;
+}
 /*.site-branding {
   padding: 25px;
 }*/

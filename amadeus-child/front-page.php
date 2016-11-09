@@ -11,12 +11,20 @@
  */
 
 get_header(); ?>
-	<div id="primary" class="fullwidth" data-page="<?php get_the_title($post->post_parent); ?>">
+	<div id="primary" class="fullwidth" data-page="<?php echo get_the_title($post->post_parent); ?>">
 		<main id="main" class="site-main" role="main">
-			<div class="latest-blog"></div>
-			<div class="latest-pinterest"></div>
-			<div class="latest-feeds"></div>
-			<div class="contact"></div>
+			<?php while ( have_posts() ) : the_post(); ?>
+
+				<?php get_template_part( 'content', 'page' ); ?>
+
+				<?php
+					// If comments are open or we have at least one comment, load up the comment template
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
+				?>
+
+			<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

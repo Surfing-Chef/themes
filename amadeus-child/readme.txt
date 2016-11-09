@@ -49,10 +49,12 @@ Nov 9, 2016
 :: WP
 - Checked tagline punctuation
 - Added custom fields to front page - Quote and Author
+? Add content to front page - Recent Posts, Feeds, Pinterest, Contact
+?? Use html and plugins on "Front Page" page and create text file for transfer to other local site
 
 :: GITHUB
 - Created Amadeus-Child Branch
 -- Simplified Directory
 
 :: SCRIPT
-- checked link to google fonts - removed link to 'Passion One' 
+- checked link to google fonts - removed link to 'Passion One'
