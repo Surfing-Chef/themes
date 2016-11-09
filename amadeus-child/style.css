@@ -149,10 +149,11 @@ Video-Player
 .hidden-quote-quote {
   font-size: 24px;
   text-align: left;
+  quotes: "“" "”" "‘" "’";
 }
 
 .hidden-quote-quote:before {
-  font-family: serif;
+  font-family: Helvetica, Arial, serif;
   content: open-quote;
   font-weight: bold;
   font-size: 48px;

@@ -44,3 +44,8 @@ Nov 7, 2016
 :: WP
 - Check tagline punctuation
 - Add fields to front page - Quote and Author
+
+Nov 9, 2016
+:: WP
+- Checked tagline punctuation
+- Added custom fields to front page - Quote and Author
