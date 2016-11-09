@@ -24,15 +24,22 @@ Nov 6, 2016
 ? search bar icon in top menu
 
 :: WP
+- Smaller logo at top (changed size to 150 and padding to 0 in customization )
 - Changed Tagline to Work. Play. Sleep. Repeat.
-- Added enqueue function to load additional google Fonts (change address to change fonts)
 
 :: CSS
 - Added site title to menu bar
 -- used floats and margin %'s to center
 - unified hover effects for item hovers and current menu tab (.current-menu-item)
 
+:: SCRIPT
+- Added enqueue function to load additional google Fonts (change address to change fonts)
+
 Nov 7, 2016
 :: SCRIPT
 ? use background fixed on video for backgroud in header
 ? the video height should match the screen height (center video and hide overflow )
+
+:: WP
+- Check tagline punctuation
+- Add fields to front page - Quote and Author
