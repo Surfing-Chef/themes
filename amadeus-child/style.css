@@ -105,16 +105,15 @@ Video-Player
   z-index: 999;
 }
 
-.custom-logo {
-  -webkit-filter: drop-shadow(0 0 1px rgba(0,0,0,0.3))
-                  drop-shadow(0 0 1px rgba(0,0,0,0.3));
-  filter: drop-shadow(0 0 1px rgba(0,0,0,0.3))
-          drop-shadow(0 0 1px rgba(0,0,0,0.3));
-}
+/*.custom-logo {
+  -webkit-filter: drop-shadow(0 0 1px rgba(0,0,0,0.3));
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.3));
+  drop-shadow: 0 0 1px rgba(0,0,0,0.3);
+}*/
 
 .hidden-tagline-container {
   position: absolute;
-  top: 20%;
+  top: 250px;
   width: 100%;
 }
 
