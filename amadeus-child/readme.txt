@@ -39,13 +39,20 @@ Nov 7, 2016
 :: SCRIPT
 ? use background fixed on video for background in header
 ? the video height should match the screen height (center video and hide overflow )
-? check link to google fonts
+(nov9) check link to google fonts
 
 :: WP
-- Check tagline punctuation
-- Add fields to front page - Quote and Author
+(nov9) Check tagline punctuation
+(nov9) Add fields to front page - Quote and Author
 
 Nov 9, 2016
 :: WP
 - Checked tagline punctuation
 - Added custom fields to front page - Quote and Author
+
+:: GITHUB
+- Created Amadeus-Child Branch
+-- Simplified Directory
+
+:: SCRIPT
+- checked link to google fonts - removed link to 'Passion One' 
