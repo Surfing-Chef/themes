@@ -5,8 +5,10 @@
 [latest-selected-content limit="3" display="title" image="medium" elements="0" css="three-col" orderby="dateD"]
 </div>
 
-<div class="latest-pinterest clearfix"></div>
+<div class="latest-pinterest clearfix">
+<h2>Latest Pins</h2>
+[feedzy-rss feeds="https://www.pinterest.com/SurfingChef/feed.rss" max="4" target="_blank" thumb="yes" ]
+</div>
 
 <div class="latest-feeds clearfix"></div>
-
 <div class="contact clearfix"></div>

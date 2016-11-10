@@ -237,6 +237,22 @@ Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
     font-size: 24px;
     text-align: center;
 }
+
+/**---------------------------------------------------------------
+:: content latest pinterest
+----------------------------------------------------------------*/
+.rss_header {
+  display: none;
+}
+
+.rss_item {
+  width: 45%;
+  float: left;
+}
+
+
+
+
 /****-------------------------------------------------------------
 :: FRONT PAGE
 ----------------------------------------------------------------*/
@@ -269,13 +285,13 @@ div[data-page='Front Page'] .entry-content {
 }
 
 /*filler*/
-.latest-pinterest,
 .contact{
   min-height: 300px;
   background: rgba(18, 52, 86, 0.3);
 }
 
 .latest-blog,
+.latest-pinterest,
 .latest-feeds{
   min-height: 300px;
 }

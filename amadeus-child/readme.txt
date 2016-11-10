@@ -53,9 +53,11 @@ Nov 9, 2016
 --Added 'Latest Post Shortcode' plugin
 --Added code to display recent posts and updated style sheet accordingly
 ?? Use html and plugins on "Front Page" page and create text file for transfer to other local site
+- Installed Feedzy plugin to local wordpress install
 
 :: CSS
 --Added code to display recent posts and updated style sheet accordingly
+? adjust styles of the pinterest feed to match the blog feed on front page
 
 :: GITHUB
 - Created Amadeus-Child Branch
