@@ -17,111 +17,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 */
 
-/*--------------------------------------------------------------
-Overrides for Amadeus Theme
---------------------------------------------------------------*/
-/*.site-branding { padding:0px 0; }*/
-/*.header-image { height:200px; }*/
-/*@media only screen and (max-width: 1024px) { .header-image { height:200px; } }*/
-/*.site-logo { max-width:200px; }*/
-/*.custom-logo { max-width:200px; }*/
-/*.content-area { float:none;margin-left:auto;margin-right:auto; }*/
-/*body, .widget a { color:#4c4c4c}*/
-/*.social-navigation { background-color:#fff}*/
-/*.social-navigation li a::before { background-color:#1c1c1c}*/
-/*.branding-wrapper { background-color:#fff}*/
-/*.main-navigation { background-color:#fff}*/
-/*.main-navigation a { color:#1c1c1c !important;}*/
-/*.site-title a, .site-title a:hover { color:#1c1c1c !important;}*/
-/*.site-description { color:#767676}*/
-/*.entry-title, .entry-title a { color:#1c1c1c !important;}*/
-/*.entry-meta, .entry-meta a, .entry-footer, .entry-footer a { color:#9d9d9d !important;}*/
-/*.site-footer, .footer-widget-area { background-color:#fff}*/
-/*body { font-family:'Cairo', sans-serif;}*/
-/*h1, h2, h3, h4, h5, h6 { font-family:'Roboto Slab', serif;}*/
-/*.site-title { font-size:25px; }*/
-/*.site-description { font-size:20px; }*/
-/*h1 { font-size:38px; }*/
-/*h2 { font-size:29px; }*/
-
-/****-------------------------------------------------------------
-FRONT PAGE
-----------------------------------------------------------------*/
-/*.site-header-inner {
-  position: fixed;
-  top : 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-*/
-/**---------------------------------------------------------------
-Video-Player
-----------------------------------------------------------------*/
-/*.youtube-video-container {
-  position: absolute;
-  top:0;
-  left:0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-*/
-.youtube-video-container {
-  margin-top: 200px;
-}
-
-/**---------------------------------------------------------------
-content latest blog
-----------------------------------------------------------------*/
-.latest-blog > section article {
-    width: 30%;
-    float: left;
-    margin: 0 2%;
-}
-
-.latest-blog > section article:first-of-type {
-    float: left;
-    margin-left: 0;
-    margin-right: 3%;
-}
-
-.latest-blog > section article:last-child {
-    float: right;
-    margin-left: 3%;
-    margin-right: 0;
-}
-
-.latest-blog > section article img {
-    display: block;
-    min-height: 255px;
-    margin: 0 auto;
-}
-
-.latest-blog > section article h1 {
-    font-size: 24px;
-    text-align: center;
-}
 /****------------------------------------------------------------
 :: HEADER
 ----------------------------------------------------------------*/
-div[data-page='Front Page'] header,
-div[data-page='Front Page'] footer {
-  display: none;
-}
-/*.site-branding {
-  padding: 25px;
-}*/
-
-/*.site-header,
-.branding-wrapper,
-.main-navigation {
-  background: rgb(139,145,152);
-  background: rgba(139, 145, 152, 0.4);
-  border: none;
-  z-index: 1;
-}
-*/
+/**---------------------------------------------------------------
+:: general
+----------------------------------------------------------------*/
 
 .site-header,
 .branding-wrapper,
@@ -139,6 +40,38 @@ div[data-page='Front Page'] footer {
   left: 0;
   z-index: 999;
 }
+
+
+/**---------------------------------------------------------------
+:: video-player
+----------------------------------------------------------------*/
+/*.youtube-video-container {
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+*/
+.youtube-video-container {
+  margin-top: 200px;
+}
+
+/*.site-branding {
+  padding: 25px;
+}*/
+
+/*.site-header,
+.branding-wrapper,
+.main-navigation {
+  background: rgb(139,145,152);
+  background: rgba(139, 145, 152, 0.4);
+  border: none;
+  z-index: 1;
+}
+*/
+
 
 /*.custom-logo {
   -webkit-filter: drop-shadow(0 0 1px rgba(0,0,0,0.3));
@@ -268,6 +201,64 @@ div[data-page='Front Page'] footer {
 .site-title a {
   text-shadow: 1px 1px rgba(255,255,255,0.7);
   font-weight: 700;
+}
+
+/**---------------------------------------------------------------
+:: content latest blog
+----------------------------------------------------------------*/
+.latest-blog h2 {
+  padding-bottom: 15px;
+}
+.latest-blog > section article {
+    width: 30%;
+    float: left;
+    margin: 0 2%;
+}
+
+.latest-blog > section article:first-of-type {
+    float: left;
+    margin-left: 0;
+    margin-right: 3%;
+}
+
+.latest-blog > section article:last-child {
+    float: right;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.latest-blog > section article img {
+    display: block;
+    min-height: 255px;
+    margin: 0 auto;
+}
+
+.latest-blog > section article h1 {
+    font-size: 24px;
+    text-align: center;
+}
+/****-------------------------------------------------------------
+:: FRONT PAGE
+----------------------------------------------------------------*/
+/**---------------------------------------------------------------
+:: general
+----------------------------------------------------------------*/
+/*.site-header-inner {
+  position: fixed;
+  top : 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+*/
+
+div[data-page='Front Page'] header,
+div[data-page='Front Page'] footer {
+  display: none;
+}
+
+div[data-page='Front Page'] .entry-content {
+  margin-top: -40px;
 }
 
 /****------------------------------------------------------------

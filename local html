@@ -1,6 +1,7 @@
 :: FRONT PAGE CONTENT IN WORKDPRESS
 
 <div class="latest-blog clearfix">
+<h2>Latest Blog Entries</h2>
 [latest-selected-content limit="3" display="title" image="medium" elements="0" css="three-col" orderby="dateD"]
 </div>
 
