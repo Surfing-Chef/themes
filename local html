@@ -1,6 +1,11 @@
 :: FRONT PAGE CONTENT IN WORKDPRESS
 
-<div class="latest-blog"></div>
-<div class="latest-pinterest"></div>
-<div class="latest-feeds"></div>
-<div class="contact"></div>
+<div class="latest-blog clearfix">
+[latest-selected-content limit="3" display="title" image="medium" elements="0" css="three-col" orderby="dateD"]
+</div>
+
+<div class="latest-pinterest clearfix"></div>
+
+<div class="latest-feeds clearfix"></div>
+
+<div class="contact clearfix"></div>

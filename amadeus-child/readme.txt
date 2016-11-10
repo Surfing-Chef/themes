@@ -50,7 +50,12 @@ Nov 9, 2016
 - Checked tagline punctuation
 - Added custom fields to front page - Quote and Author
 ? Add content to front page - Recent Posts, Feeds, Pinterest, Contact
+--Added 'Latest Post Shortcode' plugin
+--Added code to display recent posts and updated style sheet accordingly
 ?? Use html and plugins on "Front Page" page and create text file for transfer to other local site
+
+:: CSS
+--Added code to display recent posts and updated style sheet accordingly
 
 :: GITHUB
 - Created Amadeus-Child Branch
@@ -58,3 +63,4 @@ Nov 9, 2016
 
 :: SCRIPT
 - checked link to google fonts - removed link to 'Passion One'
+- disabled the style.css in plugin/assets directory of 'Latest Post Shortcode' plugin

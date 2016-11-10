@@ -44,7 +44,7 @@ Overrides for Amadeus Theme
 /*h1 { font-size:38px; }*/
 /*h2 { font-size:29px; }*/
 
-/**---------------------------------------------------------------
+/****-------------------------------------------------------------
 FRONT PAGE
 ----------------------------------------------------------------*/
 /*.site-header-inner {
@@ -71,6 +71,37 @@ Video-Player
   margin-top: 200px;
 }
 
+/**---------------------------------------------------------------
+content latest blog
+----------------------------------------------------------------*/
+.latest-blog > section article {
+    width: 30%;
+    float: left;
+    margin: 0 2%;
+}
+
+.latest-blog > section article:first-of-type {
+    float: left;
+    margin-left: 0;
+    margin-right: 3%;
+}
+
+.latest-blog > section article:last-child {
+    float: right;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.latest-blog > section article img {
+    display: block;
+    min-height: 255px;
+    margin: 0 auto;
+}
+
+.latest-blog > section article h1 {
+    font-size: 24px;
+    text-align: center;
+}
 /****------------------------------------------------------------
 :: HEADER
 ----------------------------------------------------------------*/
@@ -249,14 +280,13 @@ div[data-page='Front Page'] footer {
 /*filler*/
 .latest-pinterest,
 .contact{
-  height: 300px;
+  min-height: 300px;
   background: rgba(18, 52, 86, 0.3);
 }
 
 .latest-blog,
 .latest-feeds{
-  height: 300px;
-  background: rgba(101, 67, 33, 0.3);
+  min-height: 300px;
 }
 
 /*
