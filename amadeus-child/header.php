@@ -101,7 +101,6 @@
 			<div class="hidden-tagline">
 				<?php echo get_bloginfo('description'); ?>
 			</div>
-			<div class="hidden-quote-mark"></div>
 			<div class="hidden-quote-container">
 				<div class="hidden-quote-quote">
 					<?php echo get_post_meta( $post->ID, 'Quote', true ); ?>
