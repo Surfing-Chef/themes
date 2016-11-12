@@ -212,20 +212,17 @@ Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
 }
 
 .latest-blog > section article:first-of-type {
-    float: left;
     margin-left: 0;
     margin-right: 3%;
 }
 
 .latest-blog > section article:last-child {
-    float: right;
     margin-left: 3%;
     margin-right: 0;
 }
 
 .latest-blog > section article img {
     display: block;
-    min-height: 255px;
     margin: 0 auto;
 }
 
@@ -237,16 +234,6 @@ Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
 /**---------------------------------------------------------------
 :: content latest pinterest
 ----------------------------------------------------------------*/
-.rss_header {
-  display: none;
-}
-
-.rss_item {
-  width: 45%;
-  float: left;
-}
-
-
 
 
 /****-------------------------------------------------------------
