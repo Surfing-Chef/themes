@@ -269,11 +269,14 @@ Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
 */
 
 div[data-page='Front Page'] header,
-div[data-page='Front Page'] footer {
+div[data-page='Home'] header,
+div[data-page='Front Page'] footer,
+div[data-page='Home'] footer {
   display: none;
 }
 
-div[data-page='Front Page'] .entry-content {
+div[data-page='Front Page'] .entry-content,
+div[data-page='Home'] .entry-content {
   margin-top: -40px;
 }
 

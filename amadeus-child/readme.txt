@@ -66,3 +66,7 @@ Nov 9, 2016
 :: SCRIPT
 - checked link to google fonts - removed link to 'Passion One'
 - disabled the style.css in plugin/assets directory of 'Latest Post Shortcode' plugin
+
+Nov 9, 2016
+:: CSS
+- Added detection for 'Home' as well as 'Front Page'
