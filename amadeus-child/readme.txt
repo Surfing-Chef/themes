@@ -71,3 +71,6 @@ Nov 9, 2016
 :: CSS
 - Added detection for 'Home' as well as 'Front Page'
 
+Nov 12, 2016
+:: SCRIPT
+- Developing PHP or jQuery plugin to import feeds
