@@ -100,13 +100,8 @@ Amadeus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic
   background: rgb(209,211,214);
   background: rgba(0,0,0,0.3);
   color: rgb(255,255,255);
+  margin-top: 30px;
   padding-top: 5px;
-}
-.hidden-quote-mark {
-  margin: 50px auto;
-  margin-bottom: 65px;
-  width: 200px;
-  border-top: solid 3px cyan;
 }
 
 .hidden-quote-quote,
@@ -344,9 +339,6 @@ footer {
 @media (max-width: 854px){
   .hidden-tagline {
     font-size: 48px;
-  }
-  .hidden-quote-mark {
-    display: none;
   }
   .hidden-quote-quote {
     font-size: 18px;
