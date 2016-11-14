@@ -74,3 +74,7 @@ Nov 9, 2016
 Nov 12, 2016
 :: SCRIPT
 - Developing PHP or jQuery plugin to import feeds
+
+Nov 14, 2016
+:: SCRIPT
+- possible to use Feedly API for feed data
