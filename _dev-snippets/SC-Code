@@ -1,3 +1,42 @@
-# CMH Video embed code from youtube
-# HTML
+# HTML embed code from youtube
+# CMH Heartbeats Video
+#
 <iframe width="1900" height="925" src="https://www.youtube.com/embed/WGPQl8g9CMA?autoplay=1;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+# HTML embed code from youtube
+# Fourth Phase Trailer
+#
+<iframe width="1900" height="925" src="https://www.youtube.com/embed/k9qWa0Yn6bo?autoplay=1;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+# HTML Advance Field Content
+# Header Video Container
+#
+<div class="fp-video embed-responsive embed-responsive-16by9">
+    <?php the_field("front_page_video_header", 324); ?><!-- ACF - Header Video -->
+</div>
+
+# SAMPLE function.php
+function understrap_remove_scripts() {
+    wp_dequeue_style( 'understrap-styles' );
+    wp_deregister_style( 'understrap-styles' );
+
+    wp_dequeue_script( 'understrap-scripts' );
+    wp_deregister_script( 'understrap-scripts' );
+
+    // Removes the parent themes stylesheet and scripts from inc/enqueue.php
+}
+add_action( 'wp_enqueue_scripts', 'understrap_remove_scripts', 20 );
+
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+function theme_enqueue_styles() {
+
+	// Get the theme data
+	$the_theme = wp_get_theme();
+
+  wp_enqueue_style( 'child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get( 'Version' ) );
+  wp_enqueue_script( 'child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get( 'Version' ), true );
+
+  // google font enqueue
+  wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i,900', false );
+  wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Passion+One', false );
+}

@@ -11,8 +11,8 @@
  */
 
 get_header(); ?>
-	<div class="embed-responsive embed-responsive-16by9">
-			<?php the_field("front_page_video_header", 324); ?><!-- ACF - Header Video -->
+	<div class="fp-video embed-responsive embed-responsive-16by9">
+			<?php the_field("front_page_video_header", 333); ?><!-- ACF - Header Video -->
 	</div>
 
 	<div id="primary" class="fullwidth" data-page="<?php get_the_title($post->post_parent); ?>">
