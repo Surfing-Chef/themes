@@ -7,10 +7,12 @@
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package Amadeus
+ * @package Understrap
  */
 
 get_header(); ?>
+	<?php the_field("front_page_video_header", 324); ?><!-- ACF - Header Video -->
+
 	<div id="primary" class="fullwidth" data-page="<?php get_the_title($post->post_parent); ?>">
 		<main id="main" class="site-main" role="main">
 			<div class="latest-blog"></div>
