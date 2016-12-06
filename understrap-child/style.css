@@ -10,7 +10,49 @@
  Text Domain:  understrap-child
  Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
 */
+/*Header Background Tnbamks to
+https://www.transparenttextures.com/*/
 
-body {
-  background-color: #000;
+
+/* NAVIGATION
+**************************************************************/
+.wrapper-fluid.wrapper-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.bg-inverse {
+    background-color:  rgba(126,126,126,0.4)!important;
+    /*background-color:  none!important;*/
+    /*background: none url("smiley.gif") repeat; */
+    /*background-color: #9693b8;*/
+    background-image: url("assets/png/subtle-dots.png");
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.navbar #main-menu, .navbar-nav {
+  float: right;
+}
+
+/* MEDIA QUERIES
+**************************************************************/
+@media (max-width: 768px){
+  .navbar-dark .navbar-brand,
+  .navbar-dark .navbar-brand:focus,
+  .navbar-dark .navbar-brand:hover,
+  .navbar-dark .navbar-toggler,
+  .navbar-dark .navbar-toggler:focus,
+  .navbar-dark .navbar-toggler:hover  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar #main-menu, .navbar-nav .nav-item {
+    float: none;
+    text-align: center;
+  }
 }
