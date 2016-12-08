@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'surfing_chef' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'surfing_chef' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
@@ -21,6 +21,9 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
 <?php wp_footer(); ?>
 

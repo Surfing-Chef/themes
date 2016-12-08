@@ -138,3 +138,14 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Enqueue custom styles.
+ */
+ add_action( 'wp_enqueue_scripts', 'theme_scripts' );
+ function theme_scripts() {
+  // google fonts
+  wp_enqueue_style( 'google-fonts-raleway', 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i,900', false );
+  wp_enqueue_style( 'google-fonts-passion-one', 'https://fonts.googleapis.com/css?family=Passion+One', false );
+
+}
